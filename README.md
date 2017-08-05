@@ -27,11 +27,11 @@ Simply include the PrimeFactorization module to your class, then from an instanc
 Here is an irb example:
 
 ```ruby
->> require 'prime_factorization'
+irb(main):001:0> require 'prime_factorization'
 => true
->> class Prime; include PrimeFactorization;end
+irb(main):002:0> class Prime; include PrimeFactorization;end
 => Prime
->> Prime.new.prime_factorization(24)
+irb(main):003:0> Prime.new.prime_factorization(24)
 => "2³ * 3"
 ```
 
