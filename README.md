@@ -22,7 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Simply include the PrimeFactorization module to your class, then from an instance of that class call the prime_factorization method.
+
+Here is an irb example:
+
+```ruby
+>> require 'prime_factorization'
+=> true
+>> class Prime; include PrimeFactorization;end
+=> Prime
+>> Prime.new.prime_factorization(24)
+=> "2³ * 3"
+```
+
 
 ## Development
 
