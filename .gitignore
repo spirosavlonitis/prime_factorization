@@ -1,0 +1,18 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+/*.gem
+
+/.travis.yml
+/bin
+/*.gemspec
+
+# rspec failure tracking
+.rspec_status
